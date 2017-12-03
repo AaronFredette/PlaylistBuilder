@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistBuilder", "PlaylistBuilder.csproj", "{C8D5436B-8EE0-4DF2-912A-9361A6A4E356}"
+	ProjectSection(ProjectDependencies) = postProject
+		{118B1917-7839-4931-95BD-4F1D4CDAFEB6} = {118B1917-7839-4931-95BD-4F1D4CDAFEB6}
+		{00FB8554-60B2-4D8D-97ED-D966DA2EA413} = {00FB8554-60B2-4D8D-97ED-D966DA2EA413}
+		{85DCBE8A-26DB-4A55-A4B4-102347037658} = {85DCBE8A-26DB-4A55-A4B4-102347037658}
+		{E83FE8DE-54E8-46BE-8880-275E4C6313A5} = {E83FE8DE-54E8-46BE-8880-275E4C6313A5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistBuilder.Library", "..\PlaylistBuilder.Library\PlaylistBuilder.Library.csproj", "{E83FE8DE-54E8-46BE-8880-275E4C6313A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistBuilder.Data", "PlaylistBuilder.Data\PlaylistBuilder.Data.csproj", "{85DCBE8A-26DB-4A55-A4B4-102347037658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistBuilder.Models", "PlaylistBuilder.Models\PlaylistBuilder.Models.csproj", "{118B1917-7839-4931-95BD-4F1D4CDAFEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistBuilder.Library.UnitTests", "PlaylistBuilder.Library.UnitTests\PlaylistBuilder.Library.UnitTests.csproj", "{00FB8554-60B2-4D8D-97ED-D966DA2EA413}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85DCBE8A-26DB-4A55-A4B4-102347037658} = {85DCBE8A-26DB-4A55-A4B4-102347037658}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8D5436B-8EE0-4DF2-912A-9361A6A4E356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D5436B-8EE0-4DF2-912A-9361A6A4E356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D5436B-8EE0-4DF2-912A-9361A6A4E356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D5436B-8EE0-4DF2-912A-9361A6A4E356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83FE8DE-54E8-46BE-8880-275E4C6313A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83FE8DE-54E8-46BE-8880-275E4C6313A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83FE8DE-54E8-46BE-8880-275E4C6313A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83FE8DE-54E8-46BE-8880-275E4C6313A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DCBE8A-26DB-4A55-A4B4-102347037658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DCBE8A-26DB-4A55-A4B4-102347037658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DCBE8A-26DB-4A55-A4B4-102347037658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DCBE8A-26DB-4A55-A4B4-102347037658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118B1917-7839-4931-95BD-4F1D4CDAFEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118B1917-7839-4931-95BD-4F1D4CDAFEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118B1917-7839-4931-95BD-4F1D4CDAFEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118B1917-7839-4931-95BD-4F1D4CDAFEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FB8554-60B2-4D8D-97ED-D966DA2EA413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FB8554-60B2-4D8D-97ED-D966DA2EA413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FB8554-60B2-4D8D-97ED-D966DA2EA413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FB8554-60B2-4D8D-97ED-D966DA2EA413}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

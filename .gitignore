@@ -1,0 +1,9 @@
+PlaylistBuilder.Library/bin/
+PlaylistBuilder.Library/obj/
+PlaylistBuilder/PlaylistBuilder.Data/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+PlaylistBuilder/PlaylistBuilder.Data/obj/
+PlaylistBuilder/PlaylistBuilder.Library.UnitTests/bin/
+PlaylistBuilder/PlaylistBuilder.Library.UnitTests/obj/
+PlaylistBuilder/PlaylistBuilder.Models/obj/
+PlaylistBuilder/obj/
+PlaylistBuilder/bin/
